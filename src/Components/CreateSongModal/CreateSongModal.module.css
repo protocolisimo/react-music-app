@@ -1,0 +1,20 @@
+.modalwrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+}
+
+.modalContent {
+    width: 500px;
+    height: auto;
+    background-color: silver;
+    border-radius: 15px;
+    box-shadow: 0 0 15px gray;
+}

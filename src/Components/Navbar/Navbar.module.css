@@ -1,0 +1,71 @@
+.navLink img {
+    max-width: 100%;
+    position: relative;
+}
+
+.navbar {
+    width: 30px;
+    max-width: 30px;
+    height: 100%;
+    left: 0px;
+    background-color: red;
+    overflow: hidden;
+    transition: .3s;
+    font-size: 0;
+    position: relative;
+}
+
+.navbar.expand {
+    width: auto;
+    max-width: 400px;
+    font-size: inherit;
+    transition: .3s;
+}
+
+.navbar.expand .expanButton {
+    direction:rtl;
+}
+
+.menu {
+    height: 100%;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLink {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    display: flex;
+}
+
+.logo {
+    max-width: 10px;
+    padding: 10px;
+}
+
+.navbar.expand .logo {
+    max-width: 170px;
+    height: 170px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.expanButton {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: pink;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    bottom: 0px;
+    right: 0px;
+    outline: none;
+    cursor: pointer;
+}
